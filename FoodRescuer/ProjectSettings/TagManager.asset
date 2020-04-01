@@ -41,3 +41,6 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: TitleSprite
+    uniqueID: 1090923451
+    locked: 0
