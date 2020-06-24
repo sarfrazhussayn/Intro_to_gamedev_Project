@@ -323,8 +323,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -3, y: -47}
-  m_SizeDelta: {x: 769.9, y: 407.7}
+  m_AnchoredPosition: {x: -7, y: -43}
+  m_SizeDelta: {x: 478, y: 287.9}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &431199133
 MonoBehaviour:
@@ -395,8 +395,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 366, y: -283}
-  m_SizeDelta: {x: 69, y: 38.9}
+  m_AnchoredPosition: {x: -40.3, y: -304.7}
+  m_SizeDelta: {x: 72.1, y: 54.3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &435453700
 MonoBehaviour:
@@ -600,8 +600,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -34.1, y: 179.7}
-  m_SizeDelta: {x: 879.9, y: 69.6}
+  m_AnchoredPosition: {x: 6, y: 147}
+  m_SizeDelta: {x: 396.4, y: 69.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &585541183
 MonoBehaviour:
@@ -622,7 +622,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: e3265ab4bf004d28a9537516768c1c75, type: 3}
+    m_Font: {fileID: 12800000, guid: 997a43b767814dd0a7642ec9b78cba41, type: 3}
     m_FontSize: 30
     m_FontStyle: 0
     m_BestFit: 1
@@ -634,7 +634,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Information About Food Rescuer
+  m_Text: About Food Rescuer
 --- !u!222 &585541184
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -808,18 +808,18 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1020023876}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0.006532753, y: 0.000009241739, z: -0.99997765, w: -0.0014146463}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 125357011}
   m_Father: {fileID: 754058360}
   m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0.002, y: 0.749, z: -180.16199}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 436.8, y: -281.6}
-  m_SizeDelta: {x: 55.5, y: 33.2}
+  m_AnchoredPosition: {x: 23, y: -301}
+  m_SizeDelta: {x: 77.1, y: 51.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1020023878
 MonoBehaviour:
@@ -1132,6 +1132,6 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 4}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}

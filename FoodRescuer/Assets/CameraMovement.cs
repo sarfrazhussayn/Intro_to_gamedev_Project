@@ -8,8 +8,10 @@ public class CameraMovement : MonoBehaviour
 
     public float smoothSpeed = 0.5f;
 
+    public Vector3 offset;
+
     private void Update()
     {
-        transform.position = target.position;
+        transform.position = target.position + offset;
     }
 }
