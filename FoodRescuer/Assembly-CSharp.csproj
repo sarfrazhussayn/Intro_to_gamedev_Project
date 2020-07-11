@@ -60,9 +60,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Boundries.cs" />
     <Compile Include="Assets\CameraFollow.cs" />
     <Compile Include="Assets\CameraMovement.cs" />
     <Compile Include="Assets\Countdown.cs" />
+    <Compile Include="Assets\Food.cs" />
     <Compile Include="Assets\GameHandler.cs" />
     <Compile Include="Assets\GameManager.cs" />
     <Compile Include="Assets\Joystick Pack\Examples\JoystickPlayerExample.cs" />
@@ -74,11 +76,16 @@
     <Compile Include="Assets\Joystick Pack\Scripts\Joysticks\VariableJoystick.cs" />
     <Compile Include="Assets\Limits.cs" />
     <Compile Include="Assets\MenuControl.cs" />
+    <Compile Include="Assets\Obstacle.cs" />
     <Compile Include="Assets\Pause.cs" />
     <Compile Include="Assets\PauseMenu.cs" />
+    <Compile Include="Assets\Person.cs" />
     <Compile Include="Assets\PlayerCollision.cs" />
     <Compile Include="Assets\PlayerMovement.cs" />
+    <Compile Include="Assets\RepeatingBG.cs" />
     <Compile Include="Assets\Score.cs" />
+    <Compile Include="Assets\Spawner.cs" />
+    <Compile Include="Assets\SpawnPoint.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark02.cs" />

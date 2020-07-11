@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -14,7 +14,7 @@ public class Countdown : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+		Time.timeScale=1f;        
     }
 
     // Update is called once per frame
@@ -34,6 +34,10 @@ public class Countdown : MonoBehaviour
     	GameOverScreen.SetActive(true);
     	Time.timeScale = 0f;
     	GameOver=true;
+    }
+
+    public void Restart(){
+    	
     }
 
 }

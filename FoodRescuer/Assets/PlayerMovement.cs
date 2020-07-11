@@ -9,10 +9,15 @@ public class PlayerMovement : MonoBehaviour
     Vector2 movement;
     public Joystick joystick;
     // Update is called once per frame
+    void Start()
+    {
+        Time.timeScale=1f;
+    }
     void Update()
     {
+        
         movement.x = joystick.Horizontal;
-        movement.y = joystick.Vertical;
+        // movement.y = joystick.Vertical;
     }
 
     private void FixedUpdate()

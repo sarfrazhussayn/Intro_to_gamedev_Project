@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Taxi
   - Food
+  - Person
   layers:
   - Default
   - TransparentFX

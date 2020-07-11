@@ -11,7 +11,12 @@ public class MenuControl : MonoBehaviour
         SceneManager.LoadScene(1);
         Debug.Log("PlayGame Called");
     }
-    
+    public void RestartGame()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        Time.timeScale=1f;
+        Debug.Log("RestartGame Called");
+    } 
     public void BackButton()
     {
         Debug.Log(SceneManager.GetActiveScene().buildIndex);
